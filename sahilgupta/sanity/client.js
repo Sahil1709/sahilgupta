@@ -4,6 +4,6 @@ export const client = createClient({
   projectId: process.env.SANITY_STUDIO_ID,
   dataset: process.env.SANITY_STUDIO_DATASET,
   apiVersion: process.env.SANITY_STUDIO_API_VERSION,
-  useCdn: true, 
+  useCdn: false, 
 })
 
